@@ -1332,9 +1332,6 @@ function QueryWhoisServer($whoisserver, $domain) {
 	   
        <form action="<?=$_SERVER['PHP_SELF'];?>">
        <div class="input-group input-group-lg">
-		  		  <div class="input-group-prepend">
-		  		   <span class="input-group-text" id="inputGroup-sizing-default">https://</span>
-		  		  </div>
 				  
 		  		   <input type="text" class="form-control" placeholder="domain.ru / 1.23.45.67" aria-label="domain.ru / 1.23.45.67" name="domain" id="domain" value="<?=$domain;?>">
 				  
@@ -1372,15 +1369,15 @@ if($domain) {
 	   
 	   <div class="col-md-6 col-xs-6">
 	   <br><hr><br>
-	   <p><a href=""><b>WhoisInfo.ru</b></a> - веб-инструмент для проверки занятости домена или получения информации о его владельце. Введите интересующий Вас домен в "поле для ввода" выше и получите информацию в течении одной секунды. Вся информация в Whois - должна быть правдивой, чтобы каждый, кто интересуется Вашим доменным именем, имел возможность его приобрести или связаться с владельцем.</p>
+	   <p><a href=""><b>WhoisInfo.ru</b></a> - веб-инструмент для проверки занятости домена или получения информации о его владельце. Введите интересующий Вас домен в "поле для ввода" выше и получите информацию в течении одной секунды.</p>
 	   </div>
 	   <div class="col-md-6 col-xs-6">
 	   <br><hr><br>
 	   <p>Сервис поддерживает проверку владельцев доменных имён и блоков IP-адресов. Поддерживаются международные и национальные домены.
 	   <br><br>
-	   Версия: v1.0.0-beta.v12 (открытая бета)
+	   Версия: v1.0.0-beta.v16 (открытая бета)
 	   <br>
-	   Дата релиза проекта: 12 апреля 2018 г.
+	   Дата релиза проекта: 16 апреля 2018 г.
 	   <br>
 	   В случае чего - <a class="text-muted" href="mailto:tech.admin@insune.com?subject=Почините WhoisInfo.ru">свяжитесь с тех.админом</a>.
 	   </p>
